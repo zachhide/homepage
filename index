@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ZH-Home</title>
+</head>
+
+<body>
+    <div style="text-align: center;margin-top: 20px;">
+        <form action="https://google.com/search" autocomplete="off">
+            <input id="searchbar" type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+    <ul style="font-size: larger;">
+        <li><a href="https://slickdeals.net/">slick deals</a></li>
+        <li><a href="https://skritter.com/">Skritter</a></li>
+        <li><a href="mail.google.com">GMAIL</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+    </ul>
+    <style>
+        #searchbar {
+            height: 32px;
+            width: 482px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            margin: 10px 10px 0;
+            padding-left: 16px;
+        }
+
+        #searchbar:focus {
+            outline: none;
+        }
+
+        li {margin: 10px;}
+    </style>
+</body>
+
+</html>
